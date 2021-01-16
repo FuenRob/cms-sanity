@@ -59,7 +59,7 @@ export default function SinglePost() {
                     />
                 </header>
                 <div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
-                    <BlockContent blocks={singlePost.body} projectId="7ilitki0" dataset="production" />
+                    <BlockContent blocks={singlePost.body} projectId={sanityClient.projectId} dataset={sanityClient.dataset} />
                 </div>
             </article>
         </main>
